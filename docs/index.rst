@@ -1,26 +1,70 @@
-.. configurator documentation master file, created by
-   sphinx-quickstart on Tue May  2 14:29:56 2017.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+pydecor
+#######
 
-API
-===
 
-.. toctree::
 
-   pydecor
+
+
+
+
+
+
+
+
+
+
 
 
 .. include:: ../README.rst
 
-CHANGELOG
-=========
 
-.. include:: ../CHANGELOG.rst
 
-Indices and tables
-==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+
+
+
+
+
+.. toctree::
+   :caption: Introduction
+   :hidden:
+
+   overview
+   quickstart
+   installation
+
+.. raw:: latex
+
+   \part{Decorators}
+
+.. toctree::
+   :caption: Decorators
+   :hidden:
+
+   decorators
+
+
+.. raw:: latex
+
+   \part{References}
+
+.. toctree::
+   :caption: References
+   :hidden:
+
+   pydecor/index
+
+.. raw:: latex
+
+   \part{Appendix}
+
+.. toctree::
+   :caption: Appendix
+   :hidden:
+
+   ../CHANGELOG.rst
+   License
+   Glossary
+   TODOs
+   genindex
+   py-modindex

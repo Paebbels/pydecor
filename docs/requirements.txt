@@ -1,3 +1,22 @@
 -r ../requirements.txt
-sphinx
-sphinx-autodoc-typehints
+# Enforce latest version on ReadTheDocs
+sphinx>=2.3.1
+
+# Sphinx Themes
+sphinx-rtd-theme
+
+# Sphinx Extenstions
+# sphinxcontrib-textstyle>=0.2.1
+# sphinxcontrib-spelling>=2.2.0
+autoapi
+sphinx_fontawesome
+sphinx_autodoc_typehints
+# changelog>=0.3.5
+
+# BuildTheDocs Extensions (mostly patched Sphinx extensions)
+#btd.sphinx.autoprogram>=0.1.6a1.post2
+#btd.sphinx.graphviz>=2.3.1
+#btd.sphinx.inheritance_diagram>=2.3.1
+
+# Enforce newer version on ReadTheDocs (currently using 2.3.1)
+Pygments>=2.5.2
